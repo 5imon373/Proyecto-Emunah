@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Encabezado */
+body {
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header h1 {
+  padding-right: 60%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Contenido principal */
+div {
+  margin-bottom: 20px;
+}
+
+div h2 {
+  color: #333;
+}
+
+.preocupaciones {
+  display: inline;
+  margin-right: 100px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+}
+
+.texto-footer {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.redes {
+  float: right;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+}
+
+li {
+  display: inline;
+}
+
+
+
+/*.como_te_podemos_ayudar {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.equipo {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.carrousel_equipo {
+  text-align: end;
+  padding-right: 10%;
+}
+*/
+
+h2 {
+  text-align: center;
+}
+
+
+/*COLORES TEXTO:*/
+
+.texto-violeta-oscuro {
+  color: #2A2F4F;
+}
+
+.texto-violeta-claro {
+  color: #917FB3;
+}
+
+.texto-rosa-oscuro {
+  color: #E5BEEC;
+}
+
+.texto-rosa-claro {
+  color: #FDE2F3;
+}
+
+
+/*COLORES FONDO:*/
+
+.fondo-violeta-oscuro {
+  background-color: #2A2F4F;
+}
+
+.fondo-violeta-claro {
+  background-color: #917FB3;
+}
+
+.fondo-rosa-oscuro {
+  background-color: #E5BEEC;
+}
+
+.fondo-rosa-claro {
+  background-color: #FDE2F3;
+}
