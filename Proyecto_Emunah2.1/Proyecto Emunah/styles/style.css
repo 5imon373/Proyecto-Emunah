@@ -1,0 +1,13 @@
+.carousel-inner .carousel-item {
+  transition-duration: 0.25s;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #2a2f4f;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #e5beec;
+}
