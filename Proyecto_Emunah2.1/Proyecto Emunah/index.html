@@ -8,7 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap-reboot.css" />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.2-dist/css/bootstrap-reboot.css"
+    />
     <link rel="stylesheet" href="hello-world/css/bootstrap4-hello-world.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -55,10 +58,11 @@
     <!-- Cards con tipos de queja -->
 
     <div class="container text-center">
-      <div class="row mb-3">
+      <div class="row row-cols-mb-3 g-4 mb-3">
         <div class="col-md-4">
           <div class="card bg-primary bg-gradient shadow-lg">
             <img
+              .card-img-top
               class="card-img-top"
               src="/Proyecto_Emunah2.1/Proyecto Emunah/"
               alt="Card image cap"
@@ -94,7 +98,7 @@
           <div class="card bg-primary bg-gradient shadow-lg shadow-lg">
             <img
               class="card-img-top"
-              src="Proyecto_Emunah2.1Proyecto_Emunah2.1Proyecto_Emunah2.1/bootstrap-themes/demo/images/card.png"
+              src="Proyecto_Emunah2.1/Proyecto_Emunah/bootstrap-themes/demo/images/card.png"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -172,47 +176,108 @@
         <p>En Emunah todos somos licenciados en Psicología avalados por la autoridad educativa Universitaria competente. Además, todos tenemos valores y pautas claras en la forma de atención para formar parte de esta comunidad de ayuda. </p>
     </div>
     <!---Carrousel con fotos-->
-
-    <div class="container-flex text-center mb-auto carrousel">
+    <div class="container carrousel">
       <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
-          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto1.png" class="d-block w-100" alt="...">
+                <img
+                  src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> </h5>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto2.png" class="d-block w-100" alt="...">
+                <img
+                  src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto3.png" class="d-block w-100" alt="...">
+                <img
+                  src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto4.png" class="d-block w-100" alt="...">
+                <img
+                  src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto4.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto5.png" class="d-block w-100" alt="...">
+                <img
+                  src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto5.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto6.png" class="d-block w-100" alt="...">
+                <img
+                  src="/Proyecto_Emunah2.1/Proyecto Emunah/Fotos Carrousel/Recorte/Foto6.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
             </button>
+          </div>
         </div>
         <div class="col-md-4"></div>
       </div>
     </div>
     <!--- como funciona -->
     <div>
-      <h1 class="center">¿Como funciona?</h1>
+      <h1 class="centrar">¿Como funciona?</h1>
+    </div>
+    <div class="cuadrados">
+      <p>Coordina y lleva a cabo tus consultas donde sea que estés. 
+        Junto a Natalia Casella, nuestra secretaria  encontrá el mejor horario y forma de contactarte con nosotros, tambien valores del intercambio 
+      </p>
     </div>
 
     <!--- Footer -->
