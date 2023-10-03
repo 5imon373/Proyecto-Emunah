@@ -1,9 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Roboto Slab", serif;
-}
-
+  font-family: "Roboto Slab", serif;}
 /* Encabezado */
 body {
   text-align: center;
@@ -12,7 +10,6 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px;
   display: flex;
   align-items: center;
   margin: auto;
@@ -54,6 +51,20 @@ div h2 {
   display: inline;
   margin-right: 100px;
 }
+.col-4{
+  margin-left: 15%;
+
+}
+/* grid sistem 1 */
+.hola{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.column {
+  padding: 16px;
+  height: auto;
+}
+
 
 /* Pie de página */
 footer {
