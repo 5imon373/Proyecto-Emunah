@@ -134,8 +134,6 @@ li {
   display: inline;
 }
 
-
-
 .como_te_podemos_ayudar {
   text-align: left;
   padding-left: 30%;
@@ -182,6 +180,31 @@ h2 {
   flex: 2;
   padding: 10px;
 }
+
+.carrusel h5 {
+  position: static
+}
+
+#nati{
+width: 7cm;
+height: 7cm;
+}
+.div-nati {
+  font-size: 50px;
+  width: 80%;
+height: 50%;
+}
+.div-nati a {
+  font-size: 40%;
+width: 100%;
+}
+
+.final{
+  width: 80%;
+  height: 70%;
+
+}
+
 /*COLORES TEXTO:*/
 
 .texto-violeta-oscuro {
