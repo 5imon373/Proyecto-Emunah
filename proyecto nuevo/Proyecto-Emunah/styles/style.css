@@ -174,13 +174,13 @@ h2 {
 }
 
 .column {
-  flex: 3; /* Asigna más espacio a esta columna */
-  padding: 10px; /* Ajusta el relleno según sea necesario */
+  flex: 3;
+  padding: 10px;
 }
 
 .column2 {
-  flex: 2; /* Asigna menos espacio a esta columna */
-  padding: 10px; /* Ajusta el relleno según sea necesario */
+  flex: 2; 
+  padding: 10px; 
 }
 /*COLORES TEXTO:*/
 
