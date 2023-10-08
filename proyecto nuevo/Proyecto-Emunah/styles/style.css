@@ -65,6 +65,11 @@ div {
   margin: 0 auto;
 }
 
+.centrar-div {
+  justify-content: center;
+  align-items: center;
+}
+
 div h2 {
   color: #333;
 }
