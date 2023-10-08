@@ -83,6 +83,9 @@ margin: 0 auto;
 width: 60%;
 }
 
+.equipo{
+  width: 60%;
+}
 .preocupaciones {
   display: inline;
   margin-right: 100px;
@@ -148,6 +151,13 @@ li {
   padding-right: 10%;
 }
 
+.carousel-item img {
+  margin-bottom: 50%;
+}
+
+.carousel-caption {
+  bottom: -60px;
+}
 
 h2 {
   text-align: center;
