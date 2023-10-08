@@ -73,6 +73,9 @@ div h2 {
 margin-left: 30%;
 text-align: center;
 padding: 20px;
+text-align: center;
+margin: 0 auto;
+width: 60%;
 }
 
 .preocupaciones {
