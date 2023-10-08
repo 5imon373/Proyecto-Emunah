@@ -69,6 +69,12 @@ div h2 {
   color: #333;
 }
 
+.como_te_podemos{
+margin-left: 30%;
+text-align: center;
+padding: 20px;
+}
+
 .preocupaciones {
   display: inline;
   margin-right: 100px;
@@ -124,25 +130,39 @@ li {
   padding-left: 30%;
 }
 
-/*.equipo {
-  text-align: left;
-  padding-left: 10%;
+.equipo {
+  text-align: center;
+  width: 100%;
 }
 
 .carrousel_equipo {
   text-align: end;
   padding-right: 10%;
 }
-*/
+
 
 h2 {
   text-align: center;
 }
 
 .card{
-  width: 5cm;
+  width: 60%;
   margin-left: 90%;
   height: 250px;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 3; /* Asigna más espacio a esta columna */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+}
+
+.column2 {
+  flex: 2; /* Asigna menos espacio a esta columna */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
 }
 /*COLORES TEXTO:*/
 
