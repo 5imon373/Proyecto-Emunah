@@ -179,8 +179,8 @@ h2 {
 }
 
 .column2 {
-  flex: 2; 
-  padding: 10px; 
+  flex: 2;
+  padding: 10px;
 }
 /*COLORES TEXTO:*/
 
@@ -199,8 +199,11 @@ h2 {
 .texto-rosa-claro {
   color: #FDE2F3;
 }
-
-
+#carouselExampleCaptions {
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
 /*COLORES FONDO:*/
 
 .fondo-violeta-oscuro {
