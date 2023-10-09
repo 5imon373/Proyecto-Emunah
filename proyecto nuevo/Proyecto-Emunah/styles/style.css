@@ -95,7 +95,7 @@ width: 60%;
 
 }
 .col-md-4{
-  margin-left: -150px;
+  text-align: center;
 }
 /* grid sistem 1 */
 .grid{
@@ -163,8 +163,9 @@ h2 {
 
 .card{
   width: 60%;
-  margin-left: 90%;
-  height: 250px;
+  margin-left: 20%;
+  height: auto;
+  text-align: center;
 }
 .grid {
   display: flex;
