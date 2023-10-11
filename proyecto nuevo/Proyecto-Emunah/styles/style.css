@@ -8,8 +8,6 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
   display: flex;
   align-items: center;
   margin: auto;
@@ -33,7 +31,6 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -107,6 +104,10 @@ width: 60%;
 .column {
   padding: 16px;
   height: auto;
+}
+
+.unrenglon{
+  white-space: nowrap
 }
 
 
@@ -187,25 +188,33 @@ h2 {
 }
 
 #nati{
-width: 7cm;
-height: 7cm;
-}
+    width: 30%;
+    height: auto;
+    min-width: 200px;}
+    
 .div-nati {
   font-size: 50px;
-  width: 80%;
+  width: 70%;
 height: 50%;
+
 }
 .div-nati a {
-  font-size: 40%;
+font-size: 40%;
 width: 100%;
 }
 
 .final{
   width: 80%;
   height: 70%;
-
 }
 
+.minitexto p{
+font-size: 10px;
+}
+.megatexto{
+  font-size: 30px;
+  }
+  
 /*COLORES TEXTO:*/
 
 .texto-violeta-oscuro {
@@ -223,11 +232,7 @@ width: 100%;
 .texto-rosa-claro {
   color: #FDE2F3;
 }
-#carouselExampleCaptions {
-  width: 300px;
-  height: 500px;
-  overflow: hidden;
-}
+
 /*COLORES FONDO:*/
 
 .fondo-violeta-oscuro {
