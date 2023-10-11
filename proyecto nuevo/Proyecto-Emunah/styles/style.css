@@ -95,45 +95,6 @@ div h2 {
 .col-md-4 {
   text-align: center;
 }
-/* grid sistem 1 */
-.grid {
-  margin-top: 5%;
-  display: grid;
-  grid-template-columns: 40% 60%;
-}
-.column {
-  padding: 16px;
-  height: auto;
-}
-
-.unrenglon {
-  white-space: nowrap;
-}
-
-/* Pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  display: flex;
-}
-
-.texto-footer {
-  text-align: left;
-  margin-left: 5%;
-}
-
-.redes {
-  float: right;
-  list-style: none;
-}
-
-a {
-  color: #fff;
-}
-
-li {
-  display: inline;
-}
 
 .como_te_podemos_ayudar {
   text-align: left;
@@ -212,6 +173,44 @@ h2 {
 }
 .megatexto {
   font-size: 30px;
+}
+
+/* grid sistem 1 */
+.grid {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.column {
+  padding: 16px;
+  height: auto;
+}
+
+.unrenglon {
+  white-space: nowrap;
+}
+
+/* Pie de página */
+footer {
+  display: flex;
+}
+
+.texto-footer {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.redes {
+  float: right;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+}
+
+li {
+  display: inline;
 }
 
 /*COLORES TEXTO:*/
