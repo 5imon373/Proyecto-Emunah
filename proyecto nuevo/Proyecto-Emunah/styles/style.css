@@ -1,7 +1,8 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Roboto Slab", serif;}
+  font-family: "Roboto Slab", serif;
+}
 /* Encabezado */
 body {
   text-align: center;
@@ -40,7 +41,7 @@ div {
   margin-bottom: 20px;
 }
 
-.marco{
+.marco {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -51,7 +52,7 @@ div {
   border-radius: 50px;
 }
 
-.decoracion{
+.decoracion {
   border-radius: 50px;
   margin: auto;
   padding: 15px 32px;
@@ -72,31 +73,30 @@ div h2 {
   color: #333;
 }
 
-.como_te_podemos{
-margin-left: 30%;
-text-align: center;
-padding: 20px;
-text-align: center;
-margin: 0 auto;
-width: 60%;
+.como_te_podemos {
+  margin-left: 30%;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
 }
 
-.equipo{
+.equipo {
   width: 60%;
 }
 .preocupaciones {
   display: inline;
   margin-right: 100px;
 }
-.col-4{
+.col-4 {
   margin-left: 15%;
-
 }
-.col-md-4{
+.col-md-4 {
   text-align: center;
 }
 /* grid sistem 1 */
-.grid{
+.grid {
   margin-top: 5%;
   display: grid;
   grid-template-columns: 40% 60%;
@@ -106,10 +106,9 @@ width: 60%;
   height: auto;
 }
 
-.unrenglon{
-  white-space: nowrap
+.unrenglon {
+  white-space: nowrap;
 }
-
 
 /* Pie de página */
 footer {
@@ -162,7 +161,7 @@ h2 {
   text-align: center;
 }
 
-.card{
+.card {
   width: 60%;
   margin-left: 20%;
   height: auto;
@@ -184,69 +183,81 @@ h2 {
 }
 
 .carrusel h5 {
-  position: static
+  position: static;
 }
 
-#nati{
-    width: 30%;
-    height: auto;
-    min-width: 200px;}
-    
+#nati {
+  width: 30%;
+  height: auto;
+  min-width: 200px;
+}
+
 .div-nati {
   font-size: 50px;
   width: 70%;
-height: 50%;
-
+  height: 50%;
 }
 .div-nati a {
-font-size: 40%;
-width: 100%;
+  font-size: 40%;
+  width: 100%;
 }
 
-.final{
+.final {
   width: 80%;
   height: 70%;
 }
 
-.minitexto p{
-font-size: 10px;
+.minitexto p {
+  font-size: 10px;
 }
-.megatexto{
+.megatexto {
   font-size: 30px;
-  }
-  
+}
+
 /*COLORES TEXTO:*/
 
 .texto-violeta-oscuro {
-  color: #2A2F4F;
+  color: #2a2f4f;
 }
 
 .texto-violeta-claro {
-  color: #917FB3;
+  color: #917fb3;
 }
 
 .texto-rosa-oscuro {
-  color: #E5BEEC;
+  color: #e5beec;
 }
 
 .texto-rosa-claro {
-  color: #FDE2F3;
+  color: #fde2f3;
 }
 
 /*COLORES FONDO:*/
 
 .fondo-violeta-oscuro {
-  background-color: #2A2F4F;
+  background-color: #2a2f4f;
 }
 
 .fondo-violeta-claro {
-  background-color: #917FB3;
+  background-color: #917fb3;
 }
 
 .fondo-rosa-oscuro {
-  background-color: #E5BEEC;
+  background-color: #e5beec;
 }
 
 .fondo-rosa-claro {
-  background-color: #FDE2F3;
+  background-color: #fde2f3;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 100%;
+  background-color: #917fb3;
+}
+
+#carouselExample:hover .carousel-control-prev,
+#carouselExample:hover .carousel-control-next {
+  visibility: visible;
+  background-color: #917fb3;
 }
