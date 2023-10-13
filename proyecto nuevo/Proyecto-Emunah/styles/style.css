@@ -4,10 +4,6 @@ html {
   font-family: "Roboto Slab", serif;
 }
 /* Encabezado */
-body {
-  text-align: center;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -18,22 +14,13 @@ header {
   width: 100%;
 }
 
-header h1 {
-  padding-right: 60%;
-}
-
 nav ul {
   list-style-type: none;
   margin: auto;
 }
 
-nav ul li {
-  display: inline;
-}
-
 nav ul li a {
   text-decoration: none;
-  margin-right: 20px;
 }
 
 /* Contenido principal */
@@ -193,11 +180,6 @@ h2 {
 /* Pie de página */
 footer {
   display: flex;
-}
-
-.texto-footer {
-  text-align: left;
-  margin-left: 5%;
 }
 
 .redes {
