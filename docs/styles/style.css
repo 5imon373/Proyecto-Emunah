@@ -137,7 +137,7 @@ h2 {
 #nati {
   width: 30%;
   height: auto;
-  min-width: 100px;
+  min-width: 150px;
 }
 
 .div-nati {
@@ -202,7 +202,7 @@ li {
 }
 
 .texto-violeta-claro {
-  color: #917fb3;
+  color: #8573ab;
 }
 
 .texto-rosa-oscuro {
@@ -210,7 +210,7 @@ li {
 }
 
 .texto-rosa-claro {
-  color: #f7def5;
+  color: #f3cef0;
 }
 
 /*COLORES FONDO:*/
@@ -220,7 +220,7 @@ li {
 }
 
 .fondo-violeta-claro {
-  background-color: #917fb3;
+  background-color: #8573ab;
 }
 
 .fondo-rosa-oscuro {
@@ -228,17 +228,17 @@ li {
 }
 
 .fondo-rosa-claro {
-  background-color: #f7def5;
+  background-color: #f3cef0;
 }
 
 .carousel-control-prev,
 .carousel-control-next {
   height: 100%;
-  background-color: #917fb3;
+  background-color: #8573ab;
 }
 
 #carouselExample:hover .carousel-control-prev,
 #carouselExample:hover .carousel-control-next {
   visibility: visible;
-  background-color: #917fb3;
+  background-color: #8573ab;
 }
