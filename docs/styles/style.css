@@ -22,7 +22,15 @@ nav ul {
 nav ul li a {
   text-decoration: none;
 }
-
+.nav-item{
+  margin-left: 10%;
+}
+.navbar-brand{
+  text-decoration: none;
+}
+.navbar-nav{
+  margin-left: 25%;
+}
 /* Contenido principal */
 div {
   margin-bottom: 20px;
@@ -37,6 +45,7 @@ div {
   height: 40%;
   margin: auto;
   border-radius: 50px;
+  margin-bottom: 2%;
 }
 
 .decoracion {
