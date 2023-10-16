@@ -88,23 +88,6 @@ div h2 {
   padding-left: 30%;
 }
 
-.equipo {
-  text-align: center;
-  width: 100%;
-}
-
-.carrousel_equipo {
-  padding-top: 3%;
-}
-
-.carousel-item img {
-  margin-bottom: 50%;
-}
-
-.carousel-caption {
-  bottom: -60px;
-}
-
 h2 {
   text-align: center;
 }
@@ -114,10 +97,6 @@ h2 {
   margin-left: 20%;
   height: auto;
   text-align: center;
-}
-.grid {
-  display: flex;
-  justify-content: space-between;
 }
 
 .column {
@@ -130,9 +109,6 @@ h2 {
   padding: 10px;
 }
 
-.carrusel h5 {
-  position: static;
-}
 
 #nati {
   width: 30%;
