@@ -109,7 +109,6 @@ h2 {
   padding: 10px;
 }
 
-
 #nati {
   width: 30%;
   height: auto;
@@ -136,6 +135,10 @@ h2 {
 }
 .megatexto {
   font-size: 30px;
+}
+
+.alternativos div {
+  margin-bottom: 2%;
 }
 
 /* grid sistem 1 */

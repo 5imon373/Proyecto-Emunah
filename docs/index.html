@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>replit</title>
+    <title>Espacio Emunah</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="/docs/icono/icono.png" type="image">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -79,7 +80,7 @@
     <div class="container"></div>
 
     <!-- inicio -->
-    <div class="text-center my-4">
+    <div class="text-center my-4" id="hacer-terapia">
       <h1>Encontrá tu forma de hacer terapia</h1>
     </div>
     <div class="card bg-primary pt-2 my-5">
@@ -101,7 +102,7 @@
     </div>
 
     <div class="card bg-light">
-      <div class="card-header text-dark shadow-sm">
+      <div class="card-header text-dark shadow-sm" id="como_ayudar">
         <h1>¿Cómo te podemos ayudar?</h1>
       </div>
       <div class="card-body text-center shadow-lg">
@@ -118,31 +119,32 @@
     <div class="container text-center">
       <div class="row row-cols-mb-3 g-4 my-5">
         <div class="col-md-4">
+          <a href="./paginas emociones/enojo.html">
           <div class="card bg-primary bg-gradient shadow-lg">
-            <img
-              .card-img-top
-              class="card-img-top"
-              src="./fotos emociones/enojo.png"
-              alt="Card image cap"
-            />
+              <img
+                .card-img-top
+                class="card-img-top"
+                src="./fotos emociones/enojo.png"
+                alt="Card image cap"
+              />
             <div class="card-body">
-              <a href="./paguinas emociones/enojo.html"
-                ><h4 class="card-title text-secondary">Enojo</h4></a
-              >
+              <h4 class="card-title text-secondary">Enojo</h4>
               <p class="card-text text-light"></p>
             </div>
           </div>
-        </div>
+      </div>
+        
         <div class="col-md-4">
           <div class="card bg-primary bg-gradient shadow-lg">
+            <a href="./paginas emociones/depresion.html">
+
             <img
               class="card-img-top"
               src="./fotos emociones/depresion.png"
               alt="Card image cap"
             />
             <div class="card-body">
-              <a href="./paguinas emociones/depresion.html"
-                ><h4 class="card-title text-secondary">Depresión</h4></a
+                <h4 class="card-title text-secondary">Depresión</h4></a
               >
               <p class="card-text text-light"></p>
             </div>
@@ -150,14 +152,15 @@
         </div>
         <div class="col-md-4">
           <div class="card bg-primary bg-gradient shadow-lg shadow-lg">
+            <a href="./paginas emociones/ansiedad.html">
+
             <img
               class="card-img-top"
               src="./fotos emociones/ansiedad.png"
               alt="Card image cap"
             />
             <div class="card-body">
-              <a href="./paguinas emociones/ansiedad.html"
-                ><h4 class="card-title text-secondary">Ansiedad</h4></a
+                <h4 class="card-title text-secondary">Ansiedad</h4></a
               >
               <p class="card-text text-light"></p>
             </div>
@@ -167,14 +170,15 @@
       <div class="row mb-3">
         <div class="col-md-4">
           <div class="card bg-primary bg-gradient shadow-lg">
+            <a href="./paginas emociones/angustia.html">
+
             <img
               class="card-img-top"
               src="./fotos emociones/angustia.png"
               alt="Card image cap"
             />
             <div class="card-body">
-              <a href="./paguinas emociones/angustia.html"
-                ><h4 class="card-title text-secondary">Angustia</h4></a
+                <h4 class="card-title text-secondary">Angustia</h4></a
               >
               <p class="card-text text-light"></p>
             </div>
@@ -182,6 +186,7 @@
         </div>
         <div class="col-md-4">
           <div class="card bg-primary bg-gradient shadow-lg">
+            <a href="/docs/paginas emociones/frustracion.html">
             <img
               class="card-img-top"
               src="./fotos emociones/frustracion.png"
@@ -190,11 +195,13 @@
             <div class="card-body">
               <h4 class="card-title text-secondary">Frustración</h4>
               <p class="card-text text-light"></p>
+            </a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card bg-primary bg-gradient shadow-lg">
+            <a href="/docs/paginas emociones/dolor.html">
             <img
               class="card-img-top"
               src="./fotos emociones/dolor.png"
@@ -203,6 +210,7 @@
             <div class="card-body">
               <h4 class="card-title text-secondary">Dolor</h4>
               <p class="card-text text-light"></p>
+            </a>
             </div>
           </div>
         </div>
@@ -247,7 +255,7 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption card mx-auto border rounded bg-primary">
+          <div class="carousel-caption card d-none d-md-block mx-auto bg-primary border rounded">
             <div class="card-body">
               <h5 class="text-light">
                 Mauro E. Gómez, Terapia psicoanalitica psicodinamica
@@ -261,7 +269,7 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption card mx-auto border rounded bg-primary">
+          <div class="carousel-caption card d-none d-md-block mx-auto bg-primary border rounded">
             <div class="card-body">
               <h5 class="text-light">
                 Gabriela B. Errazu Schinoni, Terapia psicoanalitica
@@ -275,7 +283,7 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption card mx-auto border rounded bg-primary">
+          <div class="carousel-caption card d-none d-md-block mx-auto bg-primary border rounded">
             <div class="card-body">
               <h5 class="text-light">
                 Maria Paola Freccero, licenciada en psicologia, directora de
@@ -290,7 +298,7 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption card mx-auto border rounded bg-primary">
+          <div class="carousel-caption card d-none d-md-block mx-auto bg-primary border rounded">
             <div class="card-body">
               <h5 class="text-light">
                 Mariana L. Allo, terapia psicoanalítica y clínica vincular
@@ -317,7 +325,7 @@
       </div>
     </div>
 
-    <div class="card mx-auto bg-primary shadow-lg">
+    <div class="card mx-auto bg-primary shadow-lg" id="contacto">
       <div class="card-body">
         <img
           class="card py-2 bg-primary shadow-lg"
